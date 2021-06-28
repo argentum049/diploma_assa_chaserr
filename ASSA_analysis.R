@@ -1,9 +1,6 @@
 source("lib2.R")
 library(seqinr)
 
-a <- read.csv("output_07_201.txt", row.names = 1, sep = "\t")
-assa_a <- a %>%
-  filter(Pvalue<0.01)
 
 
 assa_07 <- read.csv("output_07.txt", row.names = 1, sep = "\t")
